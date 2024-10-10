@@ -229,3 +229,64 @@ main {
     line-height: 28px;
     /* 175% */
 }
+
+
+
+/* Styles for resume section------------- */
+.resume{
+    margin-bottom: 131px;
+}
+.resume-container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.resume-column {
+    margin-left: 71px;
+}
+
+.experience {
+    width: 511px;
+    height: 175px;
+    flex-shrink: 0;
+    margin-bottom: 60px;
+
+}
+
+.resume-column-title {
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.experience-title {
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.experience-subtitle {
+    color: var(--Dark-03, #757575);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.experience-description {
+    width: 511px;
+    color: var(--Dark-03, #757575);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
