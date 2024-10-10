@@ -164,32 +164,68 @@ main {
 
 /* style for about section */
 .about {
-    padding: 131px 157px 371px 131px;
+    padding: 131px 157px 131px 131px;
     text-align: center;
 }
 
 .about-items {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .item-title {
     color: var(--Dark-03, #757575);
     text-align: center;
-    font-family: "Open Sans";
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    /* 150% */
 }
 
 .about-description {
     color: var(--Dark-02, #474747);
-    font-family: "Open Sans";
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
     line-height: 30px;
+}
+
+.skills {
+    margin-top: 130px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.skill-name {
+    width: 267px;
+    height: 377px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-name img {
+    margin: 30px 130px 30px 30px;
+}
+
+.skill-title {
+    margin-left: 30px;
+}
+
+.skill-info {
+    width: 201px;
+    margin-left: 33px;
+    color: var(--Dark-03, #757575);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
 }
