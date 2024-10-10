@@ -39,6 +39,10 @@
     background: #FFF8F3;
 }
 
+.shared-bg {
+    background-color: #FFF8F3;
+}
+
 
 /* header styles */
 
@@ -123,4 +127,69 @@ nav li a {
     width: 584px;
     height: 676px;
     flex-shrink: 0;
+}
+
+
+/* Main Section---------------------- */
+
+/* Shared styles for Main section */
+.section-title {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-description {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+/* style for Main section */
+main {
+    border-radius: 10px;
+    width: 1140px;
+    height: 550px;
+    flex-shrink: 0;
+    margin: 130px 230px;
+
+}
+
+/* style for about section */
+.about {
+    padding: 131px 157px 371px 131px;
+    text-align: center;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.item-title {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+.about-description {
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
 }
